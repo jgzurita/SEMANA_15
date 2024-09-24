@@ -7,3 +7,8 @@ informacion_personal = {
     "ciudad": "orellana",
     "profesion": "tecnico"
 }
+
+# Modificamos la ciudad y profesion
+informacion_personal["ciudad"] = "tena"
+informacion_personal["profesion"] = "agricultor"
+
