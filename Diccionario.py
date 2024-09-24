@@ -18,4 +18,5 @@ if "telefono" not in informacion_personal:
 
 # Eliminar la clave edad
 del informacion_personal["edad"]
-
+# Imprimir el diccionario
+print(informacion_personal)
