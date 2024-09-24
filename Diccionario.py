@@ -15,3 +15,7 @@ informacion_personal["profesion"] = "agricultor"
 # Verificar si existe telefono y agregar de no ser el caso
 if "telefono" not in informacion_personal:
     informacion_personal["telefono"] = "0987654321"
+
+# Eliminar la clave edad
+del informacion_personal["edad"]
+
